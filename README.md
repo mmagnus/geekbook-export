@@ -19,9 +19,9 @@ Go to a place where you want to keep your repo (/Users/magnus/Desktop/) and run
 	Cloning into 'geekbook-export'...
 	warning: You appear to have cloned an empty repository.
 
-Now, go to `geekbook/engine` and run  `page.py`:
+Now, go to `geekbook` and run `engine/page.py` (run in this exact way, no directly `page.py` because then there will be an issue with missing `engine.py`):
 
-	python page.py /Users/magnus/Desktop/geekbook-export geekbook-export.md --add-toc --push
+	geekbook$ python engine/page.py /Users/magnus/Desktop/geekbook-export geekbook-export.md --add-toc --push
 
 You should see something like this:
 
@@ -66,14 +66,14 @@ Push ...
 ## page.py
 
 ```
-(py37) [mx] engine$ git:(master) ✗ python page.py --help
+geekbook$ python engine/page.py --help
 usage: page.py [-h] [--add-toc] [--push] exportto file
 
 Page - one note is a page.
 
 Example::
 
-      (py37) [mx] engine$ git:(master) ✗ python page.py /Users/magnus/Desktop/geekbook-export geekbook-export.md --add-toc --push
+      geekbook$ python engine/page.py /Users/magnus/Desktop/geekbook-export geekbook-export.md --add-toc --push
 
 positional arguments:
   exportto    a path to repo to export to
