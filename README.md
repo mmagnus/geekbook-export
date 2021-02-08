@@ -7,7 +7,7 @@ Table of Contents
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
-DUPA!
+![](imgs/210208-18:23:38.367042_Screenshot_2021-02-08_at_18.23.37.png)
 
 ## Create a new github repository
 Go to https://github.com/new and type a name of your new repository, e.g., geekbook-export (you can make it public if you want, but then everyone can see your export, so mind that).
@@ -49,9 +49,6 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 		python page.py /Users/magnus/Desktop/geekbook-export geekbook-export.md --add-toc --push
 
 
-
-
-
 	True
 	Table of Contents
 	=================
@@ -61,5 +58,6 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 	Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 	Push ...
+
 
 
