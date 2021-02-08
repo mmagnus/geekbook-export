@@ -26,7 +26,6 @@ Now, go to `geekbook` and run `engine/page.py` (run in this exact way, no direct
 You should see something like this:
 
 ```
-(py37) [mx] engine$ git:(master) ✗      python page.py /Users/magnus/Desktop/geekbook-export geekbook-export.md --add-toc --push
 2021-02-08 18:13:57,577 - page.py - compiling --> geekbook-export.md
 # Geekbook export
 Table of Contents
@@ -43,7 +42,7 @@ Go to https://github.com/new and type a name of your new repository, e.g., geekb
 
 Go to a place where you want to keep your repo (/Users/magnus/Desktop/) and run
 
-	(py37) [mx] Desktop$ git clone git@github.com:mmagnus/geekbook-export.git
+	git clone git@github.com:mmagnus/geekbook-export.git
 	Cloning into 'geekbook-export'...
 	warning: You appear to have cloned an empty repository.
 
