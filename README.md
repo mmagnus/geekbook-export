@@ -24,6 +24,7 @@ Now, go to `geekbook/engine` and run  `page.py`:
 
 You should see something like this:
 
+```
 	(py37) [mx] engine$ git:(master) ✗      python page.py /Users/magnus/Desktop/geekbook-export geekbook-export.md --add-toc --push
 	2021-02-08 18:13:57,577 - page.py - compiling --> geekbook-export.md
 	# Geekbook export
@@ -58,6 +59,6 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 	Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 	Push ...
-
+```
 
 
