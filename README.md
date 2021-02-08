@@ -65,22 +65,23 @@ Push ...
 
 ## page.py
 
-	(py37) [mx] engine$ git:(master) ✗ python page.py --help
-	usage: page.py [-h] [--add-toc] [--push] exportto file
+```
+(py37) [mx] engine$ git:(master) ✗ python page.py --help
+usage: page.py [-h] [--add-toc] [--push] exportto file
 
-	Page - one note is a page.
+Page - one note is a page.
 
-	Example::
+Example::
 
-		  (py37) [mx] engine$ git:(master) ✗ python page.py /Users/magnus/Desktop/geekbook-export geekbook-export.md --add-toc --push
+      (py37) [mx] engine$ git:(master) ✗ python page.py /Users/magnus/Desktop/geekbook-export geekbook-export.md --add-toc --push
 
-	positional arguments:
-	  exportto    a path to repo to export to
-	  file
+positional arguments:
+  exportto    a path to repo to export to
+  file
 
-	optional arguments:
-	  -h, --help  show this help message and exit
-	  --add-toc   replace Table of Contents
+optional arguments:
+  -h, --help  show this help message and exit
+  --add-toc   replace Table of Contents
 =================
 
 * [Geekbook export](#geekbook-export)
@@ -88,8 +89,8 @@ Push ...
   * [page\.py](#pagepy)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go) of your note with TOC generated with
-				  https://github.com/ekalinin/github-markdown-toc.go, make sure
-				  that this tool is seen in your PATH
-	  --push      run cd <path> && git add README.md; git add imgs/* && git commit
-				  -m 'update' && git push
-
+              https://github.com/ekalinin/github-markdown-toc.go, make sure
+              that this tool is seen in your PATH
+  --push      run cd <path> && git add README.md; git add imgs/* && git commit
+              -m 'update' && git push
+```
